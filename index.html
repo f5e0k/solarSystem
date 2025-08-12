@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Solar System Enhanced</title>
+    <style>
+      body { margin: 0; overflow: hidden; }
+      #solarCanvas { display: block; }
+      #controls {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        background: rgba(0,0,0,0.5);
+        color: white;
+        padding: 10px;
+        border-radius: 8px;
+        z-index: 10;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="solarCanvas"></canvas>
+    <div id="controls"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
